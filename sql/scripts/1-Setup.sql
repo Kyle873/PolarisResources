@@ -2,7 +2,7 @@
 -- Table structure for table `ServerInfoes`
 */
 
-CREATE TABLE IF NOT EXISTS `ServerInfoes` (
+CREATE TABLE IF NOT EXISTS `ServerInfo` (
   `info` varchar(255) CHARACTER SET utf8 NOT NULL,
   `setting` longtext,
   PRIMARY KEY (`info`)
